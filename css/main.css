@@ -1,9 +1,14 @@
-/* Importing Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* Root Variables */
 :root {
   font-size: 16px;
+  --color-gray-dark: #6C727F;
+  --color-gray-light: #E5E7EB;
+  --color-white: #FFFFFF;
+  --color-blue: #3662E3;
+  --color-background: #F9FAFB;
 }
 
 /* Global Styles (Mobile First) */
@@ -12,44 +17,48 @@ body {
   margin: 75px auto;
   padding: 0 40px;
   font-family: "Poppins", sans-serif;
-  font-size: 1rem; /* 16px */
+  font-size: 1rem;
   font-weight: 400;
-  color: #6C727F;
-  background-color: #F9FAFB;
+  color: var(--color-gray-dark);
+  background-color: var(--color-background);
   line-height: 1.75;
   text-align: center;
 }
 
 /* Headings */
 h1 {
-  font-size: 3rem; /* 48px */
+  font-size: 3rem;
   font-weight: 600;
   color: #000000;
 }
 
 h2 {
-  font-size: 1.25rem; /* 20px */
+  font-size: 1.25rem;
   font-weight: 400;
-  color: #6C727F;
+  color: var(--color-gray-dark);
 }
 
+/* Logo Image */
 .logo-image {
   max-width: 60px;
 }
 
+/* Form Section */
 .form-section {
+  margin: 0 auto;
   margin-top: 50px;
   padding: 25px;
-  background-color: #FFFFFF;
+  background-color: var(--color-white);
   width: 100%;
-  border: 1px solid #E5E7EB;
-  border-top: 0;
+  border: 1px solid var(--color-gray-light);
   border-radius: 10px;
-  box-shadow: 0px 10px 20px 2px #E5E7EB;
+  box-shadow: 0px 10px 20px 2px var(--color-gray-light);
 }
 
-.email-input, .submit-button {
-  border: 1px solid #E5E7EB ;
+/* Email Input and Submit Button */
+.email-input,
+.submit-button {
+  border: 1px solid var(--color-gray-light);
   width: 100%;
   text-align: center;
   height: 54px;
@@ -57,21 +66,22 @@ h2 {
 }
 
 .email-input {
-  font-size: 1rem ; /* 16px */
+  font-size: 1rem;
   font-weight: 500;
-  background-color: #F9FAFB;
-  color: #6C727F;
+  background-color: var(--color-background);
+  color: var(--color-gray-dark);
 }
 
 .submit-button {
-  font-size: 1rem ; /* 16px */
+  font-size: 1rem;
   font-weight: 600;
   margin: 24px 0;
-  background-color: #3662E3;
-  color: #FFFFFF;
+  background-color: var(--color-blue);
+  color: var(--color-white);
 }
 
+/* Helper Text */
 .helper-text {
-  font-size: 0.875rem;  /* 14px */
+  font-size: 0.875rem;
+  color: var(--color-gray-dark);
 }
-
