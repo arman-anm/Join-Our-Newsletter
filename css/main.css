@@ -9,13 +9,13 @@
 /* Global Styles (Mobile First) */
 body {
   max-width: 640px;
-  margin: 0 auto;
-  padding: 0 24px;
+  margin: 75px auto;
+  padding: 0 40px;
   font-family: "Poppins", sans-serif;
   font-size: 1rem; /* 16px */
   font-weight: 400;
   color: #6C727F;
-  background-color: #FFFFFF;
+  background-color: #F9FAFB;
   line-height: 1.75;
   text-align: center;
 }
@@ -31,5 +31,47 @@ h2 {
   font-size: 1.25rem; /* 20px */
   font-weight: 400;
   color: #6C727F;
+}
+
+.logo-image {
+  max-width: 60px;
+}
+
+.form-section {
+  margin-top: 50px;
+  padding: 25px;
+  background-color: #FFFFFF;
+  width: 100%;
+  border: 1px solid #E5E7EB;
+  border-top: 0;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px 2px #E5E7EB;
+}
+
+.email-input, .submit-button {
+  border: 1px solid #E5E7EB ;
+  width: 100%;
+  text-align: center;
+  height: 54px;
+  border-radius: 10px;
+}
+
+.email-input {
+  font-size: 1rem ; /* 16px */
+  font-weight: 500;
+  background-color: #F9FAFB;
+  color: #6C727F;
+}
+
+.submit-button {
+  font-size: 1rem ; /* 16px */
+  font-weight: 600;
+  margin: 24px 0;
+  background-color: #3662E3;
+  color: #FFFFFF;
+}
+
+.helper-text {
+  font-size: 0.875rem;  /* 14px */
 }
 
