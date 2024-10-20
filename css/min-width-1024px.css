@@ -1,0 +1,8 @@
+@media (min-width: 1024px) {
+  body {
+    max-width: 720px;
+  }
+  .form-section {
+    max-width: 560px;
+  }
+}
